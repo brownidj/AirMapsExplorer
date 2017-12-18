@@ -190,3 +190,6 @@ const styles = StyleSheet.create({
 });
 
 module.exports = App;
+
+//   [GMSServices provideAPIKey :@"AIzaSyCx7qnMedCA_rSYmVCdSypAJVqbkEaM94k"];
+

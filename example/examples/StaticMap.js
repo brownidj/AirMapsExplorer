@@ -11,8 +11,8 @@ import MapView from 'react-native-maps';
 const { width, height } = Dimensions.get('window');
 
 const ASPECT_RATIO = width / height;
-const LATITUDE = 37.78825;
-const LONGITUDE = -122.4324;
+const LATITUDE = -19.294805;
+const LONGITUDE = 146.768083;
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
@@ -110,8 +110,8 @@ const styles = StyleSheet.create({
     paddingVertical: 40,
   },
   map: {
-    width: 250,
-    height: 250,
+    width: 400,
+    height: 400,
   },
 });
 
